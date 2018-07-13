@@ -37,6 +37,7 @@ def draw_graph(G, filename):
         img_file = graphviz.render('dot', 'png', f.name)
         os.rename(img_file, filename)
 
+
 def compute(infile, outfile):
     data = pd.read_csv(infile)
     G = init_graph(data)

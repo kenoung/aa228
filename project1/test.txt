@@ -1,6 +1,0 @@
-age fare {}
-portembarked passengerclass {}
-passengerclass age {}
-passengerclass portembarked {}
-passengerclass fare {}
-numsiblings numparentschildren {}
